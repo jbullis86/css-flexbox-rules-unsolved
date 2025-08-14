@@ -30,21 +30,21 @@ form {
   border: 1px solid #a9a9a9;
   padding: 50px;
   display: flex;
+  gap: 20px;
   flex-direction: column;
-  gap: 15px;
 }
 
 .subtext {
   color: #a9a9a9;
   font-weight: unset;
+  display: flex;
 }
 
 #sign-in,
 #sign-up {
   width: 100%;
   padding: 20px;
-  display: flex;
-  
+  font-weight: unset;
 }
 
 a {
@@ -53,7 +53,7 @@ a {
 }
 
 label {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 input {
@@ -82,6 +82,8 @@ input[type="submit"] {
   outline: none;
   clear: left;
   cursor: pointer;
+  direction: flex;
+  align-items: center;
 }
 
 input[type="submit"]:hover {
@@ -90,4 +92,14 @@ input[type="submit"]:hover {
 
 .form select {
   height: 30px;
+}
+.form-group-horizontal-control{
+  display: flex;
+  flex: wrap;
+  flex: 1 1 0;
+  gap: 30px;
+}
+.form-input-contro{
+  display: flex;
+  gap: 15px;
 }
