@@ -96,10 +96,7 @@ input[type="submit"]:hover {
 .form-group-horizontal-control{
   display: flex;
   flex: wrap;
-  flex: 1 1 0;
-  gap: 30px;
-}
-.form-input-contro{
-  display: flex;
-  gap: 15px;
+  flex-basis: auto;
+  gap: 10px;
+  align-items: stretch;
 }
