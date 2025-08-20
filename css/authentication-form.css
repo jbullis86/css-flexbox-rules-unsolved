@@ -82,7 +82,7 @@ input[type="submit"] {
   outline: none;
   clear: left;
   cursor: pointer;
-  direction: flex;
+  display: flex;
   align-items: center;
 }
 
@@ -93,10 +93,34 @@ input[type="submit"]:hover {
 .form select {
   height: 30px;
 }
-.form-group-horizontal-control{
+
+.form-group-horizontal-control {
   display: flex;
-  flex: wrap;
-  flex-basis: auto;
-  gap: 10px;
-  align-items: stretch;
+  gap: 20px;
+  width: 100%;
+}
+
+.form-group-horizontal-control .form-input-control {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#state,
+#city {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.form-submit-control{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 20px;
 }
