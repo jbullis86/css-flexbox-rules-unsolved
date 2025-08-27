@@ -1,5 +1,3 @@
-/* 👇👇👇 SCROLL DOWN TO THE "EDIT STYLES BENEATH" comment (line 180) 👇👇👇*/
-
 * {
   padding: 0;
   margin: 0;
@@ -37,13 +35,9 @@ section {
 }
 
 .header-content {
-  dispaly: felex;
-  flex-wrap: wrap;
 }
 
 .logo-search {
-   dispaly: felex;
-  flex-wrap: wrap;
 }
 
 .logo {
