@@ -132,27 +132,40 @@ section {
 }
 
 .view-options {
-
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
 }
 
 i.fa-th-list {
   transform: rotate(180deg);
+  display: flex;
+  align-content: center;
 }
 
 .section-control {
   padding-bottom: 20px;
   border-bottom: 1px solid #8d8ba5;
+  display: flex;
+  justify-content: space-between;
+  align-items: space-around;
+  gap: 30px;
 }
 
 .section-control .view-option {
   width: 40px;
   height: 40px;
   border: 1px solid #8d8ba5;
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .products {
   margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .product {
