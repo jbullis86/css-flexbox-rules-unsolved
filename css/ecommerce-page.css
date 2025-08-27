@@ -35,9 +35,18 @@ section {
 }
 
 .header-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-evenly;
+  gap: 30px; 
 }
 
 .logo-search {
+ display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px; 
 }
 
 .logo {
@@ -45,6 +54,7 @@ section {
   font-size: 28px;
   font-weight: 900;
   font-family: "Caveat", sans-serif;
+
 }
 
 .search-bar {
@@ -69,13 +79,22 @@ section {
 }
 
 .options {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .option {
   min-width: 60px;
   text-transform: capitalize;
   cursor: pointer;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  }
 
 .option i {
   font-size: 20px;
